@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Crypto AES + RSA</title>
+</head>
+<body>
+
+<h2>Generar claves RSA</h2>
+<button onclick="generateKeys()">Generar</button>
+<pre id="keys"></pre>
+
+<h2>Cifrar mensaje</h2>
+<textarea id="message"></textarea><br>
+<textarea id="publicKey" placeholder="Clave pública"></textarea><br>
+<button onclick="encrypt()">Cifrar</button>
+<pre id="encrypted"></pre>
+
+<h2>Descifrar mensaje</h2>
+<textarea id="privateKey" placeholder="Clave privada"></textarea><br>
+<button onclick="decrypt()">Descifrar</button>
+<pre id="decrypted"></pre>
+
+<script src="app.js"></script>
+
+</body>
+</html>
