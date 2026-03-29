@@ -1,6 +1,6 @@
 let encryptedData = {};
 
-const API_URL = "https://TU-APP.onrender.com"; // ← CAMBIAR DESPUÉS
+const API_URL = "https://crypto-app-avyi.onrender.com";
 
 async function generateKeys() {
     const res = await fetch(API_URL + "/generate-keys");
